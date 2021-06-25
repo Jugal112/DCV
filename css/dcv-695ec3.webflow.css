@@ -1636,8 +1636,8 @@ figcaption {
 .image-hero.download {
   padding-top: 190px;
   padding-bottom: 120px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url('../images/Photo-9.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/Photo-9.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url('../videos/DCV_bg_vid-poster-00001.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../videos/DCV_bg_vid-poster-00001.jpg');
   background-position: 0px 0px, 50% 0px;
   background-size: auto, cover;
 }
@@ -1992,8 +1992,8 @@ figcaption {
 }
 
 .pricing-block.image {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/Photo-9.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Photo-9.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../videos/DCV_bg_vid-poster-00001.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../videos/DCV_bg_vid-poster-00001.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   color: #fff;
@@ -3179,8 +3179,8 @@ figcaption {
 }
 
 .subpage-header.pricing-2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url('../images/Photo-9.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/Photo-9.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url('../videos/DCV_bg_vid-poster-00001.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../videos/DCV_bg_vid-poster-00001.jpg');
   background-position: 0px 0px, 50% 100%;
   background-size: auto, cover;
 }
@@ -3796,7 +3796,7 @@ figcaption {
 }
 
 .gallery-image-block.small._4 {
-  background-image: url('../images/Photo-9.jpg');
+  background-image: url('../videos/DCV_bg_vid-poster-00001.jpg');
 }
 
 .gallery-image-block.small._5 {
@@ -5361,7 +5361,7 @@ html.w-mod-js *[data-ix="hide-lightbox"] {
   }
 
   .hero-background-video {
-    background-image: url('../images/Photo-9.jpg');
+    background-image: url('../videos/DCV_bg_vid-poster-00001.jpg');
     background-position: 50% 50%;
     background-size: cover;
   }
@@ -5912,7 +5912,7 @@ html.w-mod-js *[data-ix="hide-lightbox"] {
   }
 
   .hero-video {
-    background-image: url('../images/Photo-9.jpg');
+    background-image: url('../videos/DCV_bg_vid-poster-00001.jpg');
     background-position: 0px 0px;
     background-size: 800px;
   }
@@ -8829,3 +8829,7 @@ html.w-mod-js *[data-ix="hide-lightbox"] {
   }
 }
 
+.feat-icon {
+  margin-bottom: 12px;
+  color: #3898EC;
+}
