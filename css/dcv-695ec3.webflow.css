@@ -8833,3 +8833,15 @@ html.w-mod-js *[data-ix="hide-lightbox"] {
   margin-bottom: 12px;
   color: #3898EC;
 }
+
+#submit-btn {
+  font-size: 18px;
+  padding: 15px 35px;
+}
+
+.subbtn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
