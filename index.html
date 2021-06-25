@@ -27,6 +27,25 @@
   <!-- Font Awesome Icon -->
 	<script src="https://kit.fontawesome.com/fcfe7daee1.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+  <script
+		src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous"></script>
+	<script>
+		function SubForm (){
+			$.ajax({
+				url:"https://api.apispreadsheets.com/data/14667/",
+				type:"post",
+				data:$("#wf-form-Sign-Up-Form-Popup").serializeArray(),
+				success: function(){
+					alert("Email Submitted.")
+				},
+				error: function(){
+					alert("There was an error submitting your email.")
+				}
+			});
+		}
+	</script>
 </head>
 <body>
   <div data-ix="hide-popup" class="sign-up-popup">
@@ -41,12 +60,12 @@
           </div><input type="email" id="Email-3" name="Email" data-name="Email" maxlength="256" required="" placeholder="Email address" class="dark-field w-input"><input type="text" id="Telephone-3" name="Telephone-3" data-name="Telephone 3" maxlength="256" required="" placeholder="Telephone number" class="dark-field w-input">
           <p class="sign-up-bottom-text">Signing up for our services means you agree to the <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a>.</p><input type="submit" value="Get Started Now" data-wait="Please wait..." class="button w-button">
         </form>
-        <div class="success-message w-form-done">
+        <!-- <div class="success-message w-form-done">
           <p>Thank you! Your submission has been received!</p>
         </div>
         <div class="error-bg w-form-fail">
           <p>Oops! Something went wrong while submitting the form</p>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -66,7 +85,7 @@
           <div class="w-form">
             <form id="email-form" name="email-form" data-name="Email Form"><label for="email" class="field-label-2">Join the waitlist</label>
               <div class="text-block-2">By clicking Submit, you agree that you are an <a href="https://www.ecfr.gov/cgi-bin/retrieveECFR?gp=&amp;SID=8edfd12967d69c024485029d968ee737&amp;r=SECTION&amp;n=17y3.0.1.1.12.0.46.176" target="_blank">accredited investor</a>.</div>
-              <div class="w-layout-grid grid"><input type="email" class="text-field w-node-_69a0af0f-cb5a-409d-c7d8-c7793dc22c6f-609b92ab w-input" maxlength="256" name="email-4" data-name="Email 4" placeholder="Email Address" id="email-4" required=""><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button"></div>
+              <div class="w-layout-grid grid"><input type="email" class="text-field w-node-_69a0af0f-cb5a-409d-c7d8-c7793dc22c6f-609b92ab w-input" maxlength="256" name="email-4" data-name="Email 4" placeholder="Email Address" id="email-4" required=""><input type="submit" onclick='SubForm()' value="Submit" data-wait="Please wait..." class="submit-button w-button"></div>
             </form>
             <div class="w-form-done">
               <div>Thank you! Your submission has been received!</div>
