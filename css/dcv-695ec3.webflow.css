@@ -8845,3 +8845,9 @@ html.w-mod-js *[data-ix="hide-lightbox"] {
   align-items: center;
   margin-top: 45px;
 }
+
+p.agree-text {
+  font-size: 15px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
